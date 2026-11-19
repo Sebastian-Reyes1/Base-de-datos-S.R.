@@ -1,0 +1,8 @@
+1. instalar usando el siguiente comando las librerias
+    pip install -r requirements.txt
+
+si no funciona usar el siguiente: 
+    pip install fastapi uvicorn pandas matplotlib
+
+2. poner este comando en la terminal de la carpeta principal "DASHBOARD_VENTAS"
+    uvicorn app.main:app --reload
